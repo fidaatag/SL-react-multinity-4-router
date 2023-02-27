@@ -1,7 +1,8 @@
 import './App.css';
 import { Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
-import About from './about';
+import About from './About';
+import AboutTeam from './AboutTeam';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='about' element={<About />} />
+        <Route path='about/team' element={<AboutTeam />} />
       </Routes>
     </div>
   );
